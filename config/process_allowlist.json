@@ -1,0 +1,27 @@
+
+{
+    "allowed_process_names": [
+        "explorer.exe",
+        "chrome.exe",
+        "svchost.exe",
+        "WmiPrvSE.exe",
+        "Code.exe",
+        "OpenConsole.exe",
+        "RuntimeBroker.exe",
+        "SearchHost.exe",
+        "SearchProtocolHost.exe",
+        "ShellExperienceHost.exe",
+        "services.exe",
+        "wininit.exe",
+        "winlogon.exe",
+        "lsass.exe",
+        "csrss.exe",
+        "smss.exe",
+        "MsMpEng.exe",
+        "SystemSettings.exe",
+        "notepad.exe",
+        "powershell.exe",
+        "WindowsTerminal.exe"
+    ],
+    "blocked_process_names": []
+}

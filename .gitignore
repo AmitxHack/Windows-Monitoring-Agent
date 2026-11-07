@@ -1,0 +1,23 @@
+venv/
+myenv/
+.venv/
+
+__pycache__/
+*.py[cod]
+
+.env
+
+logs/*
+!logs/.gitkeep
+
+*.log
+.DS_Store
+
+project_structure.txt
+# Generated security reports
+reports/*
+!reports/.gitkeep
+
+# Screenshots
+screenshots/*
+!screenshots/.gitkeep

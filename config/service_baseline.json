@@ -1,0 +1,2982 @@
+{
+    "ADPSvc": {
+        "name": "ADPSvc",
+        "display_name": "Aggregated Data Platform Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceAndNoImpersonation -p",
+        "pid": null,
+        "description": "This service is used for Aggregated Data Platform scenarios."
+    },
+    "ALG": {
+        "name": "ALG",
+        "display_name": "Application Layer Gateway Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\System32\\alg.exe",
+        "pid": null,
+        "description": "Provides support for 3rd party protocol plug-ins for Internet Connection Sharing"
+    },
+    "AppIDSvc": {
+        "name": "AppIDSvc",
+        "display_name": "Application Identity",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT Authority\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+        "pid": null,
+        "description": "Determines and verifies the identity of an application. Disabling this service will prevent AppLocker from being enforced."
+    },
+    "Appinfo": {
+        "name": "Appinfo",
+        "display_name": "Application Information",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": 5440,
+        "description": "Facilitates the running of interactive applications with additional administrative privileges.  If this service is stopped, users will be unable to launch applications with the additional administrative privileges they may require to perform desired user tasks."
+    },
+    "AppReadiness": {
+        "name": "AppReadiness",
+        "display_name": "App Readiness",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k AppReadiness -p",
+        "pid": null,
+        "description": "Gets apps ready for use the first time a user signs in to this PC and when adding new apps."
+    },
+    "AppXSvc": {
+        "name": "AppXSvc",
+        "display_name": "AppX Deployment Service (AppXSVC)",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k wsappx -p",
+        "pid": 5068,
+        "description": "Provides infrastructure support for deploying Store applications. This service is started on demand and if disabled Store applications will not be deployed to the system, and may not function properly."
+    },
+    "ApxSvc": {
+        "name": "ApxSvc",
+        "display_name": "Windows Virtual Audio Device Proxy Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService -p",
+        "pid": null,
+        "description": "Manages virtual audio devices for Windows-based programs.  If this service is stopped, virtual audio devices will not function properly.  If this service is disabled, any services that explicitly depend on it will fail to start"
+    },
+    "AskLinkService": {
+        "name": "AskLinkService",
+        "display_name": "AskLinkService",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files\\AskLink\\4.2.0.0\\AskLink.exe\"  --TYPE=SERVICE ",
+        "pid": 6004,
+        "description": "AskLinkService"
+    },
+    "aspnet_state": {
+        "name": "aspnet_state",
+        "display_name": "ASP.NET State Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\aspnet_state.exe",
+        "pid": null,
+        "description": "Provides support for out-of-process session states for ASP.NET. If this service is stopped, out-of-process requests will not be processed. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "AudioEndpointBuilder": {
+        "name": "AudioEndpointBuilder",
+        "display_name": "Windows Audio Endpoint Builder",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": 3712,
+        "description": "Manages audio devices for the Windows Audio service.  If this service is stopped, audio devices and effects will not function properly.  If this service is disabled, any services that explicitly depend on it will fail to start"
+    },
+    "Audiosrv": {
+        "name": "Audiosrv",
+        "display_name": "Windows Audio",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+        "pid": 4332,
+        "description": "Manages audio for Windows-based programs.  If this service is stopped, audio devices and effects will not function properly.  If this service is disabled, any services that explicitly depend on it will fail to start"
+    },
+    "autotimesvc": {
+        "name": "autotimesvc",
+        "display_name": "Cellular Time",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k autoTimeSvc",
+        "pid": null,
+        "description": "This service sets time based on NITZ messages from a Mobile Network"
+    },
+    "AxInstSV": {
+        "name": "AxInstSV",
+        "display_name": "ActiveX Installer (AxInstSV)",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k AxInstSVGroup",
+        "pid": null,
+        "description": "Provides User Account Control validation for the installation of ActiveX controls from the Internet and enables management of ActiveX control installation based on Group Policy settings. This service is started on demand and if disabled the installation of ActiveX controls will behave according to default browser settings."
+    },
+    "BDESVC": {
+        "name": "BDESVC",
+        "display_name": "BitLocker Drive Encryption Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "localSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p",
+        "pid": 1256,
+        "description": "BDESVC hosts the BitLocker Drive Encryption service. BitLocker Drive Encryption provides secure startup for the operating system, as well as full volume encryption for OS, fixed or removable volumes. This service allows BitLocker to prompt users for various actions related to their volumes when mounted, and unlocks volumes automatically without user interaction. Additionally, it stores recovery information to Active Directory, if available, and, if necessary, ensures the most recent recovery certificates are used.  Stopping or disabling the service would prevent users from leveraging this functionality."
+    },
+    "BFE": {
+        "name": "BFE",
+        "display_name": "Base Filtering Engine",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNoNetworkFirewall -p",
+        "pid": 5580,
+        "description": "The Base Filtering Engine (BFE) is a service that manages firewall and Internet Protocol security (IPsec) policies and implements user mode filtering. Stopping or disabling the BFE service will significantly reduce the security of the system. It will also result in unpredictable behavior in IPsec management and firewall applications."
+    },
+    "BITS": {
+        "name": "BITS",
+        "display_name": "Background Intelligent Transfer Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p",
+        "pid": 27652,
+        "description": "Transfers files in the background using idle network bandwidth. If the service is disabled, then any applications that depend on BITS, such as Windows Update or MSN Explorer, will be unable to automatically download programs and other information."
+    },
+    "BrokerInfrastructure": {
+        "name": "BrokerInfrastructure",
+        "display_name": "Background Tasks Infrastructure Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k DcomLaunch -p",
+        "pid": 1572,
+        "description": "Windows infrastructure service that controls which background tasks can run on the system."
+    },
+    "BTAGService": {
+        "name": "BTAGService",
+        "display_name": "Bluetooth Audio Gateway Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNetworkRestricted",
+        "pid": 1892,
+        "description": "Service supporting the audio gateway role of the Bluetooth Handsfree Profile."
+    },
+    "BthAvctpSvc": {
+        "name": "BthAvctpSvc",
+        "display_name": "AVCTP service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceRedirectionGuard -p",
+        "pid": 2060,
+        "description": "This is Audio Video Control Transport Protocol service"
+    },
+    "bthserv": {
+        "name": "bthserv",
+        "display_name": "Bluetooth Support Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService -p",
+        "pid": 2096,
+        "description": "The Bluetooth service supports discovery and association of remote Bluetooth devices.  Stopping or disabling this service may cause already installed Bluetooth devices to fail to operate properly and prevent new devices from being discovered or associated."
+    },
+    "camsvc": {
+        "name": "camsvc",
+        "display_name": "Capability Access Manager Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k osprivacy -p",
+        "pid": 6560,
+        "description": "Provides facilities for managing UWP apps access to app capabilities as well as checking an app's access to specific app capabilities"
+    },
+    "CDPSvc": {
+        "name": "CDPSvc",
+        "display_name": "Connected Devices Platform Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService -p",
+        "pid": 3796,
+        "description": "This service is used for Connected Devices Platform scenarios"
+    },
+    "CertPropSvc": {
+        "name": "CertPropSvc",
+        "display_name": "Certificate Propagation",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs",
+        "pid": null,
+        "description": "Copies user certificates and root certificates from smart cards into the current user's certificate store, detects when a smart card is inserted into a smart card reader, and, if needed, installs the smart card Plug and Play minidriver."
+    },
+    "ClickToRunSvc": {
+        "name": "ClickToRunSvc",
+        "display_name": "Microsoft Office Click-to-Run Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" /service",
+        "pid": 6028,
+        "description": "‪Manages resource coordination, background streaming, and system integration of Microsoft 365 and Office products and their related updates. This service is required to run during the use of any Microsoft 365 and Office program, during initial streaming installation and all subsequent updates.‬"
+    },
+    "ClipSVC": {
+        "name": "ClipSVC",
+        "display_name": "Client License Service (ClipSVC)",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k wsappx -p",
+        "pid": null,
+        "description": "Provides infrastructure support for the Microsoft Store. This service is started on demand and if disabled applications bought using the Microsoft Store will not behave correctly."
+    },
+    "COMSysApp": {
+        "name": "COMSysApp",
+        "display_name": "COM+ System Application",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235}",
+        "pid": null,
+        "description": "Manages the configuration and tracking of Component Object Model (COM)+-based components. If the service is stopped, most COM+-based components will not function properly. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "CoreMessagingRegistrar": {
+        "name": "CoreMessagingRegistrar",
+        "display_name": "CoreMessaging",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNoNetwork -p",
+        "pid": 2704,
+        "description": "Manages communication between system components."
+    },
+    "cplspcon": {
+        "name": "cplspcon",
+        "display_name": "Intel(R) Content Protection HDCP Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_80590711807ad49f\\IntelCpHDCPSvc.exe",
+        "pid": 2596,
+        "description": "Intel(R) Content Protection HDCP Service - enables communication with Content Protection HDCP HW"
+    },
+    "CryptSvc": {
+        "name": "CryptSvc",
+        "display_name": "Cryptographic Services",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT Authority\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k NetworkService -p",
+        "pid": 4240,
+        "description": "Provides three management services: Catalog Database Service, which confirms the signatures of Windows files and allows new programs to be installed; Protected Root Service, which adds and removes Trusted Root Certification Authority certificates from this computer; and Automatic Root Certificate Update Service, which retrieves root certificates from Windows Update and enable scenarios such as SSL. If this service is stopped, these management services will not function properly. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "DcomLaunch": {
+        "name": "DcomLaunch",
+        "display_name": "DCOM Server Process Launcher",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k DcomLaunch -p",
+        "pid": 1572,
+        "description": "The DCOMLAUNCH service launches COM and DCOM servers in response to object activation requests. If this service is stopped or disabled, programs using COM or DCOM will not function properly. It is strongly recommended that you have the DCOMLAUNCH service running."
+    },
+    "dcsvc": {
+        "name": "dcsvc",
+        "display_name": "Declared Configuration(DC) service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "Process Declared Configuration documents recevied from MDM and other channels and perform configurations on device"
+    },
+    "defragsvc": {
+        "name": "defragsvc",
+        "display_name": "Optimize drives",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "localSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k defragsvc",
+        "pid": null,
+        "description": "Helps the computer run more efficiently by optimizing files on storage drives."
+    },
+    "DeviceAssociationService": {
+        "name": "DeviceAssociationService",
+        "display_name": "Device Association Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": 3508,
+        "description": "Enables pairing between the system and wired or wireless devices."
+    },
+    "DeviceInstall": {
+        "name": "DeviceInstall",
+        "display_name": "Device Install Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k DcomLaunch -p",
+        "pid": null,
+        "description": "Enables a computer to recognize and adapt to hardware changes with little or no user input. Stopping or disabling this service will result in system instability."
+    },
+    "DevQueryBroker": {
+        "name": "DevQueryBroker",
+        "display_name": "DevQuery Background Discovery Broker",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": null,
+        "description": "Enables apps to discover devices with a backgroud task"
+    },
+    "Dhcp": {
+        "name": "Dhcp",
+        "display_name": "DHCP Client",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT Authority\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+        "pid": 2444,
+        "description": "Registers and updates IP addresses and DNS records for this computer. If this service is stopped, this computer will not receive dynamic IP addresses and DNS updates. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "diagsvc": {
+        "name": "diagsvc",
+        "display_name": "Diagnostic Execution Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k diagnostics",
+        "pid": null,
+        "description": "Executes diagnostic actions for troubleshooting support"
+    },
+    "DiagTrack": {
+        "name": "DiagTrack",
+        "display_name": "Connected User Experiences and Telemetry",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k utcsvc -p",
+        "pid": 5996,
+        "description": "The Connected User Experiences and Telemetry service enables features that support in-application and connected user experiences. Additionally, this service manages the event driven collection and transmission of diagnostic and usage information (used to improve the experience and quality of the Windows Platform) when the diagnostics and usage privacy option settings are enabled under Feedback and Diagnostics."
+    },
+    "DispBrokerDesktopSvc": {
+        "name": "DispBrokerDesktopSvc",
+        "display_name": "Display Policy Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService -p",
+        "pid": 3820,
+        "description": "Manages the connection and configuration of local and remote displays"
+    },
+    "DisplayEnhancementService": {
+        "name": "DisplayEnhancementService",
+        "display_name": "Display Enhancement Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": 2632,
+        "description": "A service for managing display enhancement such as brightness control."
+    },
+    "DmEnrollmentSvc": {
+        "name": "DmEnrollmentSvc",
+        "display_name": "Device Management Enrollment Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "Performs Device Enrollment Activities for Device Management"
+    },
+    "dmwappushservice": {
+        "name": "dmwappushservice",
+        "display_name": "Device Management Wireless Application Protocol (WAP) Push message Routing Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "Routes Wireless Application Protocol (WAP) Push messages received by the device and synchronizes Device Management sessions"
+    },
+    "Dnscache": {
+        "name": "Dnscache",
+        "display_name": "DNS Client",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT AUTHORITY\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k NetworkService -p",
+        "pid": 2304,
+        "description": "The DNS Client service (dnscache) sends Domain Name System (DNS) queries, caches query results, and registers the computer's full name on the network. This service is not stoppable."
+    },
+    "DoSvc": {
+        "name": "DoSvc",
+        "display_name": "Delivery Optimization",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT Authority\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k NetworkService -p",
+        "pid": 21688,
+        "description": "Performs content delivery optimization tasks"
+    },
+    "dot3svc": {
+        "name": "dot3svc",
+        "display_name": "Wired AutoConfig",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "localSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": null,
+        "description": "The Wired AutoConfig (DOT3SVC) service is responsible for performing IEEE 802.1X authentication on Ethernet interfaces. If your current wired network deployment enforces 802.1X authentication, the DOT3SVC service should be configured to run for establishing Layer 2 connectivity and/or providing access to network resources. Wired networks that do not enforce 802.1X authentication are unaffected by the DOT3SVC service."
+    },
+    "DPS": {
+        "name": "DPS",
+        "display_name": "Diagnostic Policy Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalServiceNoNetwork -p",
+        "pid": 5980,
+        "description": "The Diagnostic Policy Service enables problem detection, troubleshooting and resolution for Windows components.  If this service is stopped, diagnostics will no longer function."
+    },
+    "dptftcs": {
+        "name": "dptftcs",
+        "display_name": "Intel(R) Dynamic Tuning Technology Telemetry Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT Authority\\LocalService",
+        "binary_path": "\"C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\dtt_sw.inf_amd64_4a0efaf978352e5b\\ipfsvc.exe\"",
+        "pid": 6044,
+        "description": "Intel(R) Dynamic Tuning Technology Telemetry Service"
+    },
+    "DsmSvc": {
+        "name": "DsmSvc",
+        "display_name": "Device Setup Manager",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "Enables the detection, download and installation of device-related software. If this service is disabled, devices may be configured with outdated software, and may not work correctly."
+    },
+    "DsSvc": {
+        "name": "DsSvc",
+        "display_name": "Data Sharing Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": 3264,
+        "description": "Provides data brokering between applications."
+    },
+    "DusmSvc": {
+        "name": "DusmSvc",
+        "display_name": "Data Usage",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT Authority\\LocalService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p -s DusmSvc",
+        "pid": 5144,
+        "description": "Network data usage, data limit, restrict background data, metered networks."
+    },
+    "EapHost": {
+        "name": "EapHost",
+        "display_name": "Extensible Authentication Protocol",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "localSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "The Extensible Authentication Protocol (EAP) service provides network authentication in such scenarios as 802.1x wired and wireless, VPN, and Network Access Protection (NAP).  EAP also provides application programming interfaces (APIs) that are used by network access clients, including wireless and VPN clients, during the authentication process.  If you disable this service, this computer is prevented from accessing networks that require EAP authentication."
+    },
+    "edgeupdate": {
+        "name": "edgeupdate",
+        "display_name": "Microsoft Edge Update Service (edgeupdate)",
+        "status": "stopped",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /svc",
+        "pid": null,
+        "description": "Keeps your Microsoft software up to date. If this service is disabled or stopped, your Microsoft software will not be kept up to date, meaning security vulnerabilities that may arise cannot be fixed and features may not work. This service uninstalls itself when there is no Microsoft software using it."
+    },
+    "edgeupdatem": {
+        "name": "edgeupdatem",
+        "display_name": "Microsoft Edge Update Service (edgeupdatem)",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /medsvc",
+        "pid": null,
+        "description": "Keeps your Microsoft software up to date. If this service is disabled or stopped, your Microsoft software will not be kept up to date, meaning security vulnerabilities that may arise cannot be fixed and features may not work. This service uninstalls itself when there is no Microsoft software using it."
+    },
+    "EFS": {
+        "name": "EFS",
+        "display_name": "Encrypting File System (EFS)",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\lsass.exe",
+        "pid": null,
+        "description": "Provides the core file encryption technology used to store encrypted files on NTFS file system volumes. If this service is stopped or disabled, applications will be unable to access encrypted files."
+    },
+    "ELAN_MOC_Service": {
+        "name": "ELAN_MOC_Service",
+        "display_name": "ELAN MOC Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\ELAN_MOC_Service.exe",
+        "pid": 6036,
+        "description": ""
+    },
+    "embeddedmode": {
+        "name": "embeddedmode",
+        "display_name": "Embedded Mode",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": null,
+        "description": "The Embedded Mode service enables scenarios related to Background Applications.  Disabling this service will prevent Background Applications from being activated."
+    },
+    "EntAppSvc": {
+        "name": "EntAppSvc",
+        "display_name": "Enterprise App Management Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k appmodelRedirectionGuard -p",
+        "pid": null,
+        "description": "Enables enterprise application management."
+    },
+    "ETDService": {
+        "name": "ETDService",
+        "display_name": "ELAN Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\ETDService.exe",
+        "pid": 6016,
+        "description": ""
+    },
+    "EventLog": {
+        "name": "EventLog",
+        "display_name": "Windows Event Log",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+        "pid": 3808,
+        "description": "This service manages events and event logs. It supports logging events, querying events, subscribing to events, archiving event logs, and managing event metadata. It can display events in both XML and plain text format. Stopping this service may compromise security and reliability of the system."
+    },
+    "EventSystem": {
+        "name": "EventSystem",
+        "display_name": "COM+ Event System",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceRedirectionGuard -p",
+        "pid": 3884,
+        "description": "Supports System Event Notification Service (SENS), which provides automatic distribution of events to subscribing Component Object Model (COM) components. If the service is stopped, SENS will close and will not be able to provide logon and logoff notifications. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "fdPHost": {
+        "name": "fdPHost",
+        "display_name": "Function Discovery Provider Host",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService -p",
+        "pid": null,
+        "description": "The FDPHOST service hosts the Function Discovery (FD) network discovery providers. These FD providers supply network discovery services for the Simple Services Discovery Protocol (SSDP) and Web Services – Discovery (WS-D) protocol. Stopping or disabling the FDPHOST service will disable network discovery for these protocols when using FD. When this service is unavailable, network services using FD and relying on these discovery protocols will be unable to find network devices or resources."
+    },
+    "FDResPub": {
+        "name": "FDResPub",
+        "display_name": "Function Discovery Resource Publication",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceAndNoImpersonation -p",
+        "pid": null,
+        "description": "Publishes this computer and resources attached to this computer so they can be discovered over the network.  If this service is stopped, network resources will no longer be published and they will not be discovered by other computers on the network."
+    },
+    "fhsvc": {
+        "name": "fhsvc",
+        "display_name": "File History Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": null,
+        "description": "Protects user files from accidental loss by copying them to a backup location"
+    },
+    "FileSyncHelper": {
+        "name": "FileSyncHelper",
+        "display_name": "FileSyncHelper",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files\\Microsoft OneDrive\\26.195.1006.0007\\FileSyncHelper.exe\"",
+        "pid": null,
+        "description": "Helper service for OneDrive"
+    },
+    "FontCache": {
+        "name": "FontCache",
+        "display_name": "Windows Font Cache Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService -p",
+        "pid": 3752,
+        "description": "Optimizes performance of applications by caching commonly used font data. Applications will start this service if it is not already running. It can be disabled, though doing so will degrade application performance."
+    },
+    "FrameServer": {
+        "name": "FrameServer",
+        "display_name": "Windows Camera Frame Server",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k Camera",
+        "pid": null,
+        "description": "Enables multiple clients to access video frames from camera devices."
+    },
+    "FrameServerMonitor": {
+        "name": "FrameServerMonitor",
+        "display_name": "Windows Camera Frame Server Monitor",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k CameraMonitor",
+        "pid": null,
+        "description": "Monitors the health and state for the Windows Camera Frame Server service."
+    },
+    "GameInputSvc": {
+        "name": "GameInputSvc",
+        "display_name": "GameInput Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\GameInputSvc.exe",
+        "pid": null,
+        "description": "Enables keyboards, mice, gamepads, and other input devices to be used with the GameInput API."
+    },
+    "GoogleChromeElevationService": {
+        "name": "GoogleChromeElevationService",
+        "display_name": "Google Chrome Elevation Service (GoogleChromeElevationService)",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files\\Google\\Chrome\\Application\\156.0.8078.80\\elevation_service.exe\"",
+        "pid": null,
+        "description": "Provides encryption services and a secure way for recovering Google Chrome if it gets out of date. If this service is disabled, Google Chrome may lose access to encrypted data, and Google Chrome may not be able recover itself."
+    },
+    "GoogleUpdaterInternalService157.0.8089.0": {
+        "name": "GoogleUpdaterInternalService157.0.8089.0",
+        "display_name": "Google Updater Internal Service (GoogleUpdaterInternalService157.0.8089.0)",
+        "status": "stopped",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\157.0.8089.0\\updater.exe\" --system --windows-service --service=update-internal",
+        "pid": null,
+        "description": "Keeps your Google software up to date. If this service is disabled or stopped, your Google software will not be kept up to date, meaning security vulnerabilities that may arise cannot be fixed and features may not work. This service uninstalls itself when there is no Google software using it."
+    },
+    "GoogleUpdaterService157.0.8089.0": {
+        "name": "GoogleUpdaterService157.0.8089.0",
+        "display_name": "Google Updater Service (GoogleUpdaterService157.0.8089.0)",
+        "status": "stopped",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\157.0.8089.0\\updater.exe\" --system --windows-service --service=update",
+        "pid": null,
+        "description": "Keeps your Google software up to date. If this service is disabled or stopped, your Google software will not be kept up to date, meaning security vulnerabilities that may arise cannot be fixed and features may not work. This service uninstalls itself when there is no Google software using it."
+    },
+    "gpsvc": {
+        "name": "gpsvc",
+        "display_name": "Group Policy Client",
+        "status": "stopped",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k GPSvcGroup",
+        "pid": null,
+        "description": "The service is responsible for applying settings configured by administrators for the computer and users through the Group Policy component. If the service is disabled, the settings will not be applied and applications and components will not be manageable through Group Policy. Any components or applications that depend on the Group Policy component might not be functional if the service is disabled."
+    },
+    "GraphicsPerfSvc": {
+        "name": "GraphicsPerfSvc",
+        "display_name": "GraphicsPerfSvc",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k GraphicsPerfSvcGroup",
+        "pid": null,
+        "description": "Graphics performance monitor service"
+    },
+    "hidserv": {
+        "name": "hidserv",
+        "display_name": "Human Interface Device Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": 2684,
+        "description": "Activates and maintains the use of hot buttons on keyboards, remote controls, and other multimedia devices. It is recommended that you keep this service running."
+    },
+    "hns": {
+        "name": "hns",
+        "display_name": "Host Network Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k NetSvcs -p",
+        "pid": 3504,
+        "description": "Provides support for Windows Virtual Networks."
+    },
+    "HP Comm Recover": {
+        "name": "HP Comm Recover",
+        "display_name": "HP Comm Recovery",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files\\HPCommRecovery\\HPCommRecovery.exe\"",
+        "pid": 6132,
+        "description": "Check and recover devices"
+    },
+    "HPAppHelperCap": {
+        "name": "HPAppHelperCap",
+        "display_name": "HP App Helper HSA Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\hpcustomcapcomp.inf_amd64_166246cb8bd387ff\\x64\\AppHelperCap.exe",
+        "pid": 3244,
+        "description": "Provides HP apps and services the ability to launch interdependent apps, suspend/resume devices for short periods, adjust network resources to optimize performance, enable presence aware sensors to light up additional features and services."
+    },
+    "hpatchmon": {
+        "name": "hpatchmon",
+        "display_name": "Hotpatch Monitoring Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": null,
+        "description": "Monitors Hotpatch ETW Trace providers and reports failures."
+    },
+    "HPDiagsCap": {
+        "name": "HPDiagsCap",
+        "display_name": "HP Diagnostics HSA Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\hpcustomcapcomp.inf_amd64_166246cb8bd387ff\\x64\\DiagsCap.exe",
+        "pid": 3100,
+        "description": "Enables HP apps and services to run device hardware and software diagnostics and troubleshoot problems."
+    },
+    "HPNetworkCap": {
+        "name": "HPNetworkCap",
+        "display_name": "HP Network HSA Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\hpcustomcapcomp.inf_amd64_166246cb8bd387ff\\x64\\NetworkCap.exe",
+        "pid": 2404,
+        "description": "Connects to HP cloud services to manage registration and sync device consents."
+    },
+    "HPPrintScanDoctorService": {
+        "name": "HPPrintScanDoctorService",
+        "display_name": "HP Print Scan Doctor Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files\\HPPrintScanDoctor\\HPPrintScanDoctorService.exe\"",
+        "pid": 6156,
+        "description": ""
+    },
+    "HPSysInfoCap": {
+        "name": "HPSysInfoCap",
+        "display_name": "HP System Info HSA Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\hpcustomcapcomp.inf_amd64_166246cb8bd387ff\\x64\\SysInfoCap.exe",
+        "pid": 4120,
+        "description": "Allows HP apps and services to obtain system WMI, BIOS and device info, configure hardware,access Windows registry, return battery PCM info,access the file system, install services, listen for Windows events, and manage device consents to light up features and services."
+    },
+    "HpTouchpointAnalyticsService": {
+        "name": "HpTouchpointAnalyticsService",
+        "display_name": "HP Insights Analytics",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\hpanalyticscomp.inf_amd64_ef460d1f2a35fc16\\x64\\TouchpointAnalyticsClientService.exe",
+        "pid": 4108,
+        "description": ""
+    },
+    "HvHost": {
+        "name": "HvHost",
+        "display_name": "HV Host Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": 1352,
+        "description": "Provides an interface for the Hyper-V hypervisor to provide per-partition performance counters to the host operating system."
+    },
+    "icssvc": {
+        "name": "icssvc",
+        "display_name": "Windows Mobile Hotspot Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT Authority\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+        "pid": null,
+        "description": "Provides the ability to share a cellular data connection with another device."
+    },
+    "igccservice": {
+        "name": "igccservice",
+        "display_name": "Intel(R) Graphics Command Center Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\igcc_dch.inf_amd64_a687edda40db3316\\OneApp.IGCC.WinService.exe\"",
+        "pid": 6148,
+        "description": "Service for Intel(R) Graphics Command Center"
+    },
+    "IKEEXT": {
+        "name": "IKEEXT",
+        "display_name": "IKE and AuthIP IPsec Keying Modules",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": 5604,
+        "description": "The IKEEXT service hosts the Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) keying modules. These keying modules are used for authentication and key exchange in Internet Protocol security (IPsec). Stopping or disabling the IKEEXT service will disable IKE and AuthIP key exchange with peer computers. IPsec is typically configured to use IKE or AuthIP; therefore, stopping or disabling the IKEEXT service might result in an IPsec failure and might compromise the security of the system. It is strongly recommended that you have the IKEEXT service running."
+    },
+    "InstallService": {
+        "name": "InstallService",
+        "display_name": "Microsoft Store Install Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p",
+        "pid": 17740,
+        "description": "Provides infrastructure support for the Microsoft Store.  This service is started on demand and if disabled then installations will not function properly."
+    },
+    "Intel(R) Platform License Manager Service": {
+        "name": "Intel(R) Platform License Manager Service",
+        "display_name": "Intel(R) Platform License Manager Service",
+        "status": "stopped",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iclsclient.inf_amd64_fc84dfa25a6a7727\\lib\\PlatformLicenseManagerService.exe",
+        "pid": null,
+        "description": "Version: 1.71.99.0"
+    },
+    "IntelAudioService": {
+        "name": "IntelAudioService",
+        "display_name": "Intel(R) Audio Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\intcoed.inf_amd64_29fd1afabcf5470c\\\\AS\\\\IAS\\\\IntelAudioService.exe",
+        "pid": 6164,
+        "description": ""
+    },
+    "InventorySvc": {
+        "name": "InventorySvc",
+        "display_name": "Inventory and Compatibility Appraisal service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k InvSvcGroup -p",
+        "pid": 13704,
+        "description": "This service performs background system inventory, compatibility appraisal, and maintenance used by numerous system components."
+    },
+    "ipfsvc": {
+        "name": "ipfsvc",
+        "display_name": "Intel(R) Innovation Platform Framework Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\ipf_cpu.inf_amd64_cf5beef3831571d4\\ipf_uf.exe\"",
+        "pid": 6368,
+        "description": "Intel(R) Innovation Platform Framework Service"
+    },
+    "iphlpsvc": {
+        "name": "iphlpsvc",
+        "display_name": "IP Helper",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k NetSvcs -p",
+        "pid": 6236,
+        "description": "Provides tunnel connectivity using IPv6 transition technologies (6to4, ISATAP, Port Proxy, and Teredo), and IP-HTTPS. If this service is stopped, the computer will not have the enhanced connectivity benefits that these technologies offer."
+    },
+    "IpxlatCfgSvc": {
+        "name": "IpxlatCfgSvc",
+        "display_name": "IP Translation Configuration Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": null,
+        "description": "Configures and enables translation from v4 to v6 and vice versa"
+    },
+    "IsolationSession": {
+        "name": "IsolationSession",
+        "display_name": "IsolationSession",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k IsolationSession -p",
+        "pid": null,
+        "description": ""
+    },
+    "IsoSessionCore": {
+        "name": "IsoSessionCore",
+        "display_name": "IsoSessionCore",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k IsoSessionCore -p",
+        "pid": null,
+        "description": ""
+    },
+    "jhi_service": {
+        "name": "jhi_service",
+        "display_name": "Intel(R) Dynamic Application Loader Host Interface Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\dal.inf_amd64_3befaa646f991169\\jhi_service.exe",
+        "pid": 6300,
+        "description": "Intel(R) Dynamic Application Loader Host Interface Service - Allows applications to access the local Intel (R) DAL"
+    },
+    "KeyIso": {
+        "name": "KeyIso",
+        "display_name": "CNG Key Isolation",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\lsass.exe",
+        "pid": 1432,
+        "description": "The CNG key isolation service is hosted in the LSA process. The service provides key process isolation to private keys and associated cryptographic operations as required by the Common Criteria. The service stores and uses long-lived keys in a secure process complying with Common Criteria requirements."
+    },
+    "KtmRm": {
+        "name": "KtmRm",
+        "display_name": "KtmRm for Distributed Transaction Coordinator",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k NetworkServiceAndNoImpersonation -p",
+        "pid": null,
+        "description": "Coordinates transactions between the Distributed Transaction Coordinator (MSDTC) and the Kernel Transaction Manager (KTM). If it is not needed, it is recommended that this service remain stopped. If it is needed, both MSDTC and KTM will start this service automatically. If this service is disabled, any MSDTC transaction interacting with a Kernel Resource Manager will fail and any services that explicitly depend on it will fail to start."
+    },
+    "LanmanServer": {
+        "name": "LanmanServer",
+        "display_name": "Server",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": 6728,
+        "description": "Supports file, print, and named-pipe sharing over the network for this computer. If this service is stopped, these functions will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "LanmanWorkstation": {
+        "name": "LanmanWorkstation",
+        "display_name": "Workstation",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT AUTHORITY\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k NetworkService -p",
+        "pid": 5668,
+        "description": "Creates and maintains client network connections to remote servers using the SMB protocol. If this service is stopped, these connections will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "lfsvc": {
+        "name": "lfsvc",
+        "display_name": "Geolocation Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcsRedirectionGuard -p",
+        "pid": 15512,
+        "description": "This service monitors the current location of the system and manages geofences (a geographical location with associated events).  If you turn off this service, applications will be unable to use or receive notifications for geolocation or geofences."
+    },
+    "LicenseManager": {
+        "name": "LicenseManager",
+        "display_name": "Windows License Manager Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "NT Authority\\LocalService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalService -p",
+        "pid": 13464,
+        "description": "Provides infrastructure support for the Microsoft Store.  This service is started on demand and if disabled then content acquired through the Microsoft Store will not function properly."
+    },
+    "lltdsvc": {
+        "name": "lltdsvc",
+        "display_name": "Link-Layer Topology Discovery Mapper",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalService -p",
+        "pid": null,
+        "description": "Creates a Network Map, consisting of PC and device topology (connectivity) information, and metadata describing each PC and device.  If this service is disabled, the Network Map will not function properly."
+    },
+    "lmhosts": {
+        "name": "lmhosts",
+        "display_name": "TCP/IP NetBIOS Helper",
+        "status": "running",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+        "pid": 15928,
+        "description": "Provides support for the NetBIOS over TCP/IP (NetBT) service and NetBIOS name resolution for clients on the network, therefore enabling users to share files, print, and log on to the network. If this service is stopped, these functions might be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "LocalKdc": {
+        "name": "LocalKdc",
+        "display_name": "Kerberos Local Key Distribution Center",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\lsass.exe",
+        "pid": null,
+        "description": "This service enables users to log on to the local machine using the Kerberos authentication protocol. If this service is stopped, users will be unable to log on to the local machine. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "LSM": {
+        "name": "LSM",
+        "display_name": "Local Session Manager",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k DcomLaunch -p",
+        "pid": 1788,
+        "description": "Core Windows Service that manages local user sessions. Stopping or disabling this service will result in system instability."
+    },
+    "LxpSvc": {
+        "name": "LxpSvc",
+        "display_name": "Language Experience Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs",
+        "pid": null,
+        "description": "Provides infrastructure support for deploying and configuring localized Windows resources. This service is started on demand and, if disabled, additional Windows languages will not be deployed to the system, and Windows may not function properly."
+    },
+    "MapsBroker": {
+        "name": "MapsBroker",
+        "display_name": "Downloaded Maps Manager",
+        "status": "stopped",
+        "start_type": "automatic",
+        "username": "NT AUTHORITY\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k NetworkService -p",
+        "pid": null,
+        "description": "Windows service for application access to downloaded maps. This service is started on-demand by application accessing downloaded maps. Disabling this service will prevent apps from accessing maps."
+    },
+    "McAfee WebAdvisor": {
+        "name": "McAfee WebAdvisor",
+        "display_name": "McAfee WebAdvisor",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files\\McAfee\\WebAdvisor\\ServiceHost.exe\"",
+        "pid": 6292,
+        "description": "McAfee WebAdvisor Service"
+    },
+    "McmSvc": {
+        "name": "McmSvc",
+        "display_name": "Mobile Connectivity Management Service",
+        "status": "stopped",
+        "start_type": null,
+        "username": null,
+        "binary_path": null,
+        "pid": null,
+        "description": null
+    },
+    "McpManagementService": {
+        "name": "McpManagementService",
+        "display_name": "McpManagementService",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k McpManagementServiceGroup",
+        "pid": null,
+        "description": "Universal Print Management Service"
+    },
+    "MDCoreSvc": {
+        "name": "MDCoreSvc",
+        "display_name": "Microsoft Defender Core Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0\\MpDefenderCoreService.exe\"",
+        "pid": 6532,
+        "description": "Monitors the availability, health, and performance of various security components"
+    },
+    "MicrosoftCopilotElevationService": {
+        "name": "MicrosoftCopilotElevationService",
+        "display_name": "Microsoft Copilot Elevation Service (MicrosoftCopilotElevationService)",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files (x86)\\Microsoft\\Copilot\\Application\\156.0.4314.58\\elevation_service.exe\"",
+        "pid": null,
+        "description": "Provides elevated privileges for Microsoft Copilot."
+    },
+    "MicrosoftEdgeElevationService": {
+        "name": "MicrosoftEdgeElevationService",
+        "display_name": "Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\156.0.4314.58\\elevation_service.exe\"",
+        "pid": null,
+        "description": "Provides elevated privileges for Microsoft Edge."
+    },
+    "midisrv": {
+        "name": "midisrv",
+        "display_name": "Windows MIDI Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\midisrv.exe",
+        "pid": null,
+        "description": "Windows MIDI Services core service for MIDI 1.0 and MIDI 2.0 message routing and device enumeration"
+    },
+    "mpssvc": {
+        "name": "mpssvc",
+        "display_name": "Windows Defender Firewall",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT Authority\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNoNetworkFirewall -p",
+        "pid": 5580,
+        "description": "Windows Defender Firewall helps protect your computer by preventing unauthorized users from gaining access to your computer through the Internet or a network."
+    },
+    "MSDTC": {
+        "name": "MSDTC",
+        "display_name": "Distributed Transaction Coordinator",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\System32\\msdtc.exe",
+        "pid": null,
+        "description": "Coordinates transactions that span multiple resource managers, such as databases, message queues, and file systems. If this service is stopped, these transactions will fail. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "MSiSCSI": {
+        "name": "MSiSCSI",
+        "display_name": "Microsoft iSCSI Initiator Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "Manages Internet SCSI (iSCSI) sessions from this computer to remote iSCSI target devices. If this service is stopped, this computer will not be able to login or access iSCSI targets. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "msiserver": {
+        "name": "msiserver",
+        "display_name": "Windows Installer",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\msiexec.exe /V",
+        "pid": null,
+        "description": "Adds, modifies, and removes applications provided as a Windows Installer (*.msi, *.msp) package. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "MySQL80": {
+        "name": "MySQL80",
+        "display_name": "MySQL80",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT AUTHORITY\\NetworkService",
+        "binary_path": "\"C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\mysqld.exe\" --defaults-file=\"C:\\ProgramData\\MySQL\\MySQL Server 8.0\\my.ini\" MySQL80",
+        "pid": 6380,
+        "description": ""
+    },
+    "NativePushService": {
+        "name": "NativePushService",
+        "display_name": "Wondershare Native Push Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Users\\HP\\AppData\\Local\\Wondershare\\Wondershare NativePush\\WsNativePushService.exe\"",
+        "pid": 6360,
+        "description": "Wondershare Native Push Service."
+    },
+    "NaturalAuthentication": {
+        "name": "NaturalAuthentication",
+        "display_name": "Natural Authentication",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "Signal aggregator service, that evaluates signals based on time, network, geolocation, bluetooth and cdf factors. Supported features are Device Unlock, Dynamic Lock and Dynamo MDM policies"
+    },
+    "NcaSvc": {
+        "name": "NcaSvc",
+        "display_name": "Network Connectivity Assistant",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k NetSvcs -p",
+        "pid": null,
+        "description": "Provides DirectAccess status notification for UI components"
+    },
+    "NcbService": {
+        "name": "NcbService",
+        "display_name": "Network Connection Broker",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": 2352,
+        "description": "Brokers connections that allow packaged Microsoft Store apps to receive notifications from the internet."
+    },
+    "NcdAutoSetup": {
+        "name": "NcdAutoSetup",
+        "display_name": "Network Connected Devices Auto-Setup",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalServiceNoNetwork -p",
+        "pid": null,
+        "description": "Network Connected Devices Auto-Setup service monitors and installs qualified devices that connect to a qualified network. Stopping or disabling this service will prevent Windows from discovering and installing qualified network connected devices automatically. Users can still manually add network connected devices to a PC through the user interface."
+    },
+    "Netlogon": {
+        "name": "Netlogon",
+        "display_name": "Netlogon",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\lsass.exe",
+        "pid": null,
+        "description": "Maintains a secure channel between this computer and the domain controller for authenticating users and services. If this service is stopped, the computer may not authenticate users and services and the domain controller cannot register DNS records. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "Netman": {
+        "name": "Netman",
+        "display_name": "Network Connections",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": null,
+        "description": "Manages objects in the Network and Dial-Up Connections folder, in which you can view both local area network and remote connections."
+    },
+    "netprofm": {
+        "name": "netprofm",
+        "display_name": "Network List Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k netprofm -p",
+        "pid": 2460,
+        "description": "Identifies the networks to which the computer has connected, collects and stores properties for these networks, and notifies applications when these properties change."
+    },
+    "NetSetupSvc": {
+        "name": "NetSetupSvc",
+        "display_name": "Network Setup Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "The Network Setup Service manages the installation of network drivers and permits the configuration of low-level network settings.  If this service is stopped, any driver installations that are in-progress may be cancelled."
+    },
+    "NetTcpPortSharing": {
+        "name": "NetTcpPortSharing",
+        "display_name": "Net.Tcp Port Sharing Service",
+        "status": "stopped",
+        "start_type": "disabled",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\SMSvcHost.exe",
+        "pid": null,
+        "description": "Provides ability to share TCP ports over the net.tcp protocol."
+    },
+    "NgcCtnrSvc": {
+        "name": "NgcCtnrSvc",
+        "display_name": "Microsoft Passport Container",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+        "pid": null,
+        "description": "Manages local user identity keys used to authenticate user to identity providers as well as TPM virtual smart cards. If this service is disabled, local user identity keys and TPM virtual smart cards will not be accessible. It is recommended that you do not reconfigure this service."
+    },
+    "NgcSvc": {
+        "name": "NgcSvc",
+        "display_name": "Microsoft Passport",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": null,
+        "description": "Provides process isolation for cryptographic keys used to authenticate to a user’s associated identity providers. If this service is disabled, all uses and management of these keys will not be available, which includes machine logon and single-sign on for apps and websites. This service starts and stops automatically. It is recommended that you do not reconfigure this service."
+    },
+    "NlaSvc": {
+        "name": "NlaSvc",
+        "display_name": "Network Location Awareness",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k netprofm -p",
+        "pid": null,
+        "description": "Collects and stores configuration information for the network and notifies programs when this information is modified. If this service is stopped, configuration information might be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "nsi": {
+        "name": "nsi",
+        "display_name": "Network Store Interface Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT Authority\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService -p",
+        "pid": 1760,
+        "description": "This service delivers network notifications (e.g. interface addition/deleting etc) to user mode clients. Stopping this service will cause loss of network connectivity. If this service is disabled, any other services that explicitly depend on this service will fail to start."
+    },
+    "nvagent": {
+        "name": "nvagent",
+        "display_name": "Network Virtualization Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k NetSvcs",
+        "pid": 5768,
+        "description": "Provides network virtualization services."
+    },
+    "OneDrive Updater Service": {
+        "name": "OneDrive Updater Service",
+        "display_name": "OneDrive Updater Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files\\Microsoft OneDrive\\26.195.1006.0007\\OneDriveUpdaterService.exe\"",
+        "pid": null,
+        "description": "Keeps your OneDrive up to date."
+    },
+    "PcaSvc": {
+        "name": "PcaSvc",
+        "display_name": "Program Compatibility Assistant Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": 11704,
+        "description": "This service provides support for the Program Compatibility Assistant (PCA).  PCA monitors programs installed and run by the user and detects known compatibility problems. If this service is stopped, PCA will not function properly."
+    },
+    "PerfHost": {
+        "name": "PerfHost",
+        "display_name": "Performance Counter DLL Host",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\SysWow64\\perfhost.exe",
+        "pid": null,
+        "description": "Enables remote users and 64-bit processes to query performance counters provided by 32-bit DLLs. If this service is stopped, only local users and 32-bit processes will be able to query performance counters provided by 32-bit DLLs."
+    },
+    "PhoneSvc": {
+        "name": "PhoneSvc",
+        "display_name": "Phone Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "NT Authority\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService -p",
+        "pid": 11404,
+        "description": "Manages the telephony state on the device"
+    },
+    "pla": {
+        "name": "pla",
+        "display_name": "Performance Logs & Alerts",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalServiceNoNetwork -p",
+        "pid": null,
+        "description": "Performance Logs and Alerts Collects performance data from local or remote computers based on preconfigured schedule parameters, then writes the data to a log or triggers an alert. If this service is stopped, performance information will not be collected. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "PlugPlay": {
+        "name": "PlugPlay",
+        "display_name": "Plug and Play",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k DcomLaunch -p",
+        "pid": 1572,
+        "description": "Enables a computer to recognize and adapt to hardware changes with little or no user input. Stopping or disabling this service will result in system instability."
+    },
+    "PolicyAgent": {
+        "name": "PolicyAgent",
+        "display_name": "IPsec Policy Agent",
+        "status": "running",
+        "start_type": "manual",
+        "username": "NT Authority\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k NetworkServiceNetworkRestricted -p",
+        "pid": 11844,
+        "description": "Internet Protocol security (IPsec) supports network-level peer authentication, data origin authentication, data integrity, data confidentiality (encryption), and replay protection.  This service enforces IPsec policies created through the IP Security Policies snap-in or the command-line tool \"netsh ipsec\".  If you stop this service, you may experience network connectivity issues if your policy requires that connections use IPsec.  Also,remote management of Windows Defender Firewall is not available when this service is stopped."
+    },
+    "Power": {
+        "name": "Power",
+        "display_name": "Power",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k DcomLaunch -p",
+        "pid": 1572,
+        "description": "Manages power policy and power policy notification delivery."
+    },
+    "PrintDeviceConfigurationService": {
+        "name": "PrintDeviceConfigurationService",
+        "display_name": "Print Device Configuration Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": null,
+        "description": "The Print Device Configuration Service manages the installation of IPP and UP printers. If this service is stopped, any printer installations that are in-progress may be canceled."
+    },
+    "PrintNotify": {
+        "name": "PrintNotify",
+        "display_name": "Printer Extensions and Notifications",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k print",
+        "pid": null,
+        "description": "This service opens custom printer dialog boxes and handles notifications from a remote print server or a printer. If you turn off this service, you won’t be able to see printer extensions or notifications."
+    },
+    "PrintScanBrokerService": {
+        "name": "PrintScanBrokerService",
+        "display_name": "PrintScanBrokerService",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k PrintScanBrokerService -p",
+        "pid": null,
+        "description": "Provides support for secure privileged operations needed by low priv spooler."
+    },
+    "ProfSvc": {
+        "name": "ProfSvc",
+        "display_name": "User Profile Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k UserProfileService -p",
+        "pid": 2760,
+        "description": "This service is responsible for loading and unloading user profiles. If this service is stopped or disabled, users will no longer be able to successfully sign in or sign out, apps might have problems getting to users' data, and components registered to receive profile event notifications won't receive them."
+    },
+    "PushToInstall": {
+        "name": "PushToInstall",
+        "display_name": "Windows PushToInstall Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "Provides infrastructure support for the Microsoft Store.  This service is started automatically and if disabled then remote installations will not function properly."
+    },
+    "QWAVE": {
+        "name": "QWAVE",
+        "display_name": "Quality Windows Audio Video Experience",
+        "status": "running",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceAndNoImpersonation -p",
+        "pid": 16208,
+        "description": "Quality Windows Audio Video Experience (qWave) is a networking platform for Audio Video (AV) streaming applications on IP home networks. qWave enhances AV streaming performance and reliability by ensuring network quality-of-service (QoS) for AV applications. It provides mechanisms for admission control, run time monitoring and enforcement, application feedback, and traffic prioritization."
+    },
+    "RasAuto": {
+        "name": "RasAuto",
+        "display_name": "Remote Access Auto Connection Manager",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "localSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "Creates a connection to a remote network whenever a program references a remote DNS or NetBIOS name or address."
+    },
+    "RasMan": {
+        "name": "RasMan",
+        "display_name": "Remote Access Connection Manager",
+        "status": "running",
+        "start_type": "manual",
+        "username": "localSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs",
+        "pid": 16660,
+        "description": "Manages dial-up and virtual private network (VPN) connections from this computer to the Internet or other remote networks. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "refsdedupsvc": {
+        "name": "refsdedupsvc",
+        "display_name": "ReFS Dedup Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\ReFsDedupSvc.exe",
+        "pid": null,
+        "description": "ReFS data deduplication and compression service to track file changes and run scheduled optimization jobs."
+    },
+    "RemoteAccess": {
+        "name": "RemoteAccess",
+        "display_name": "Routing and Remote Access",
+        "status": "stopped",
+        "start_type": "disabled",
+        "username": "localSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs",
+        "pid": null,
+        "description": "Offers routing services to businesses in local area and wide area network environments."
+    },
+    "RemoteRegistry": {
+        "name": "RemoteRegistry",
+        "display_name": "Remote Registry",
+        "status": "stopped",
+        "start_type": "disabled",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k localService -p",
+        "pid": null,
+        "description": "Enables remote users to modify registry settings on this computer. If this service is stopped, the registry can be modified only by users on this computer. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "RetailDemo": {
+        "name": "RetailDemo",
+        "display_name": "Retail Demo Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k rdxgroup",
+        "pid": null,
+        "description": "The Retail Demo service controls device activity while the device is in retail demo mode."
+    },
+    "RmSvc": {
+        "name": "RmSvc",
+        "display_name": "Radio Management Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalServiceNetworkRestricted",
+        "pid": 4688,
+        "description": "Radio Management and Airplane Mode Service"
+    },
+    "RpcEptMapper": {
+        "name": "RpcEptMapper",
+        "display_name": "RPC Endpoint Mapper",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT AUTHORITY\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k RPCSS -p",
+        "pid": 1744,
+        "description": "Resolves RPC interfaces identifiers to transport endpoints. If this service is stopped or disabled, programs using Remote Procedure Call (RPC) services will not function properly."
+    },
+    "RpcLocator": {
+        "name": "RpcLocator",
+        "display_name": "Remote Procedure Call (RPC) Locator",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\system32\\locator.exe",
+        "pid": null,
+        "description": "In Windows 2003 and earlier versions of Windows, the Remote Procedure Call (RPC) Locator service manages the RPC name service database. In Windows Vista and later versions of Windows, this service does not provide any functionality and is present for application compatibility."
+    },
+    "RpcSs": {
+        "name": "RpcSs",
+        "display_name": "Remote Procedure Call (RPC)",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT AUTHORITY\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k rpcss -p",
+        "pid": 1744,
+        "description": "The RPCSS service is the Service Control Manager for COM and DCOM servers. It performs object activations requests, object exporter resolutions and distributed garbage collection for COM and DCOM servers. If this service is stopped or disabled, programs using COM or DCOM will not function properly. It is strongly recommended that you have the RPCSS service running."
+    },
+    "RtkAudioUniversalService": {
+        "name": "RtkAudioUniversalService",
+        "display_name": "Realtek Audio Universal Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_e9ac1212310b89dc\\RtkAudUService64.exe",
+        "pid": 6476,
+        "description": "Realtek Audio Universal Service"
+    },
+    "SamSs": {
+        "name": "SamSs",
+        "display_name": "Security Accounts Manager",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\lsass.exe",
+        "pid": 1432,
+        "description": "The startup of this service signals other services that the Security Accounts Manager (SAM) is ready to accept requests.  Disabling this service will prevent other services in the system from being notified when the SAM is ready, which may in turn cause those services to fail to start correctly. This service should not be disabled."
+    },
+    "SCardSvr": {
+        "name": "SCardSvr",
+        "display_name": "Smart Card",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceAndNoImpersonation",
+        "pid": null,
+        "description": "Manages access to smart cards read by this computer. If this service is stopped, this computer will be unable to read smart cards. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "ScDeviceEnum": {
+        "name": "ScDeviceEnum",
+        "display_name": "Smart Card Device Enumeration Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted",
+        "pid": null,
+        "description": "Creates software device nodes for all smart card readers accessible to a given session. If this service is disabled, WinRT APIs will not be able to enumerate smart card readers."
+    },
+    "Schedule": {
+        "name": "Schedule",
+        "display_name": "Task Scheduler",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": 2624,
+        "description": "Enables a user to configure and schedule automated tasks on this computer. The service also hosts multiple Windows system-critical tasks. If this service is stopped or disabled, these tasks will not be run at their scheduled times. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "SCPolicySvc": {
+        "name": "SCPolicySvc",
+        "display_name": "Smart Card Removal Policy",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs",
+        "pid": null,
+        "description": "Allows the system to be configured to lock the user desktop upon smart card removal."
+    },
+    "SDRSVC": {
+        "name": "SDRSVC",
+        "display_name": "Windows Backup",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "localSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k SDRSVC",
+        "pid": null,
+        "description": "Provides Windows Backup and Restore capabilities."
+    },
+    "seclogon": {
+        "name": "seclogon",
+        "display_name": "Secondary Logon",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "Enables starting processes under alternate credentials. If this service is stopped, this type of logon access will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "SECOMNService": {
+        "name": "SECOMNService",
+        "display_name": "Sound Research SECOMN Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\WINDOWS\\System32\\SECOMN64.exe\"",
+        "pid": 6460,
+        "description": "Sound Research SECOMN Service"
+    },
+    "SecurityHealthService": {
+        "name": "SecurityHealthService",
+        "display_name": "Windows Security Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\SecurityHealthService.exe",
+        "pid": 17856,
+        "description": "Windows Security Service handles unified device protection and health information"
+    },
+    "SEMgrSvc": {
+        "name": "SEMgrSvc",
+        "display_name": "Payments and NFC/SE Manager",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService -p",
+        "pid": null,
+        "description": "Manages payments and Near Field Communication (NFC) based secure elements."
+    },
+    "SENS": {
+        "name": "SENS",
+        "display_name": "System Event Notification Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcsRedirectionGuard -p",
+        "pid": 4064,
+        "description": "Monitors system events and notifies subscribers to COM+ Event System of these events."
+    },
+    "SensorDataService": {
+        "name": "SensorDataService",
+        "display_name": "Sensor Data Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\SensorDataService.exe",
+        "pid": null,
+        "description": "Delivers data from a variety of sensors"
+    },
+    "SensorService": {
+        "name": "SensorService",
+        "display_name": "Sensor Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": 12844,
+        "description": "A service for sensors that manages different sensors' functionality. Manages Simple Device Orientation (SDO) and History for sensors. Loads the SDO sensor that reports device orientation changes.  If this service is stopped or disabled, the SDO sensor will not be loaded and so auto-rotation will not occur. History collection from Sensors will also be stopped."
+    },
+    "SensrSvc": {
+        "name": "SensrSvc",
+        "display_name": "Sensor Monitoring Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceAndNoImpersonation -p",
+        "pid": null,
+        "description": "Monitors various sensors in order to expose data and adapt to system and user state.  If this service is stopped or disabled, the display brightness will not adapt to lighting conditions. Stopping this service may affect other system functionality and features as well."
+    },
+    "SessionEnv": {
+        "name": "SessionEnv",
+        "display_name": "Remote Desktop Configuration",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "localSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k SessionEnvSvc -p",
+        "pid": null,
+        "description": "Remote Desktop Configuration service (RDCS) is responsible for all Remote Desktop Services and Remote Desktop related configuration and session maintenance activities that require SYSTEM context. These include per-session temporary folders, RD themes, and RD certificates."
+    },
+    "SharedAccess": {
+        "name": "SharedAccess",
+        "display_name": "Internet Connection Sharing (ICS)",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p",
+        "pid": 5940,
+        "description": "Provides network address translation, addressing, name resolution and/or intrusion prevention services for a home or small office network."
+    },
+    "ShellHWDetection": {
+        "name": "ShellHWDetection",
+        "display_name": "Shell Hardware Detection",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p",
+        "pid": 5276,
+        "description": "Provides notifications for AutoPlay hardware events."
+    },
+    "shpamsvc": {
+        "name": "shpamsvc",
+        "display_name": "Shared PC Account Manager",
+        "status": "stopped",
+        "start_type": "disabled",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcsRedirectionGuard -p",
+        "pid": null,
+        "description": "Manages profiles and accounts on a SharedPC configured device"
+    },
+    "smphost": {
+        "name": "smphost",
+        "display_name": "Microsoft Storage Spaces SMP",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k smphost",
+        "pid": null,
+        "description": "Host service for the Microsoft Storage Spaces management provider. If this service is stopped or disabled, Storage Spaces cannot be managed."
+    },
+    "SmsRouter": {
+        "name": "SmsRouter",
+        "display_name": "Microsoft Windows SMS Router Service.",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT Authority\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+        "pid": null,
+        "description": "Routes messages based on rules to appropriate clients."
+    },
+    "SNMPTrap": {
+        "name": "SNMPTrap",
+        "display_name": "SNMP Trap",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\System32\\snmptrap.exe",
+        "pid": null,
+        "description": "Receives trap messages generated by local or remote Simple Network Management Protocol (SNMP) agents and forwards the messages to SNMP management programs running on this computer. If this service is stopped, SNMP-based programs on this computer will not receive SNMP trap messages. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "Spooler": {
+        "name": "Spooler",
+        "display_name": "Print Spooler",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\spoolsv.exe",
+        "pid": 5400,
+        "description": "This service spools print jobs and handles interaction with the printer.  If you turn off this service, you won't be able to print or see your printers."
+    },
+    "sppsvc": {
+        "name": "sppsvc",
+        "display_name": "Software Protection",
+        "status": "stopped",
+        "start_type": "automatic",
+        "username": "NT AUTHORITY\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\system32\\sppsvc.exe",
+        "pid": null,
+        "description": "Enables the download, installation and enforcement of digital licenses for Windows and Windows applications. If the service is disabled, the operating system and licensed applications may run in a notification mode. It is strongly recommended that you not disable the Software Protection service."
+    },
+    "SSDPSRV": {
+        "name": "SSDPSRV",
+        "display_name": "SSDP Discovery",
+        "status": "running",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceAndNoImpersonationRedirectionGuard -p",
+        "pid": 9044,
+        "description": "Discovers networked devices and services that use the SSDP discovery protocol, such as UPnP devices. Also announces SSDP devices and services running on the local computer. If this service is stopped, SSDP-based devices will not be discovered. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "ssh-agent": {
+        "name": "ssh-agent",
+        "display_name": "OpenSSH Authentication Agent",
+        "status": "stopped",
+        "start_type": "disabled",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\OpenSSH\\ssh-agent.exe",
+        "pid": null,
+        "description": "Agent to hold private keys used for public key authentication."
+    },
+    "SstpSvc": {
+        "name": "SstpSvc",
+        "display_name": "Secure Socket Tunneling Protocol Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "NT Authority\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService -p",
+        "pid": 17708,
+        "description": "Provides support for the Secure Socket Tunneling Protocol (SSTP) to connect to remote computers using VPN. If this service is disabled, users will not be able to use SSTP to access remote servers."
+    },
+    "StateRepository": {
+        "name": "StateRepository",
+        "display_name": "State Repository Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k appmodel -p",
+        "pid": 3724,
+        "description": "Provides required infrastructure support for the application model."
+    },
+    "StiSvc": {
+        "name": "StiSvc",
+        "display_name": "Windows Image Acquisition (WIA)",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT Authority\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k imgsvc",
+        "pid": 6524,
+        "description": "Provides image acquisition services for scanners and cameras"
+    },
+    "StorSvc": {
+        "name": "StorSvc",
+        "display_name": "Storage Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": 10720,
+        "description": "Provides enabling services for storage settings and external storage expansion"
+    },
+    "svsvc": {
+        "name": "svsvc",
+        "display_name": "Spot Verifier",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": null,
+        "description": "Verifies potential file system corruptions."
+    },
+    "swprv": {
+        "name": "swprv",
+        "display_name": "Microsoft Software Shadow Copy Provider",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k swprv",
+        "pid": null,
+        "description": "Manages software-based volume shadow copies taken by the Volume Shadow Copy service. If this service is stopped, software-based volume shadow copies cannot be managed. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "SysMain": {
+        "name": "SysMain",
+        "display_name": "SysMain",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": 3876,
+        "description": "Maintains and improves system performance over time."
+    },
+    "SystemEventsBroker": {
+        "name": "SystemEventsBroker",
+        "display_name": "System Events Broker",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k DcomLaunch -p",
+        "pid": 1572,
+        "description": "Coordinates execution of background work for WinRT application. If this service is stopped or disabled, then background work might not be triggered."
+    },
+    "TapiSrv": {
+        "name": "TapiSrv",
+        "display_name": "Telephony",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k NetworkService -p",
+        "pid": null,
+        "description": "Provides Telephony API (TAPI) support for programs that control telephony devices on the local computer and, through the LAN, on servers that are also running the service."
+    },
+    "TermService": {
+        "name": "TermService",
+        "display_name": "Remote Desktop Services",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT Authority\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k NetworkService",
+        "pid": null,
+        "description": "Allows users to connect interactively to a remote computer. Remote Desktop and Remote Desktop Session Host Server depend on this service.  To prevent remote use of this computer, clear the checkboxes on the Remote tab of the System properties control panel item."
+    },
+    "TextInputManagementService": {
+        "name": "TextInputManagementService",
+        "display_name": "Text Input Management Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": 4740,
+        "description": "Enables text input, expressive input, touch keyboard, handwriting, and IMEs."
+    },
+    "Themes": {
+        "name": "Themes",
+        "display_name": "Themes",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p",
+        "pid": 3892,
+        "description": "Provides user experience theme management."
+    },
+    "TieringEngineService": {
+        "name": "TieringEngineService",
+        "display_name": "Storage Tiers Management",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "localSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\TieringEngineService.exe",
+        "pid": null,
+        "description": "Optimizes the placement of data in storage tiers on all tiered storage spaces in the system."
+    },
+    "TimeBrokerSvc": {
+        "name": "TimeBrokerSvc",
+        "display_name": "Time Broker",
+        "status": "running",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+        "pid": 3156,
+        "description": "Coordinates execution of background work for WinRT application. If this service is stopped or disabled, then background work might not be triggered."
+    },
+    "TokenBroker": {
+        "name": "TokenBroker",
+        "display_name": "Web Account Manager",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": 10760,
+        "description": "This service is used by Web Account Manager to provide single-sign-on to apps and services."
+    },
+    "TrkWks": {
+        "name": "TrkWks",
+        "display_name": "Distributed Link Tracking Client",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": 6552,
+        "description": "Maintains links between NTFS files within a computer or across computers in a network."
+    },
+    "TroubleshootingSvc": {
+        "name": "TroubleshootingSvc",
+        "display_name": "Recommended Troubleshooting Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "Enables automatic mitigation for known problems by applying recommended troubleshooting. If stopped, your device will not get recommended troubleshooting for problems on your device."
+    },
+    "TrustedInstaller": {
+        "name": "TrustedInstaller",
+        "display_name": "Windows Modules Installer",
+        "status": "running",
+        "start_type": "manual",
+        "username": "localSystem",
+        "binary_path": "C:\\WINDOWS\\servicing\\TrustedInstaller.exe",
+        "pid": 4980,
+        "description": "Enables installation, modification, and removal of Windows updates and optional components. If this service is disabled, install or uninstall of Windows updates might fail for this computer."
+    },
+    "tzautoupdate": {
+        "name": "tzautoupdate",
+        "display_name": "Auto Time Zone Updater",
+        "status": "stopped",
+        "start_type": "disabled",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService -p",
+        "pid": null,
+        "description": "Automatically sets the system time zone."
+    },
+    "UmRdpService": {
+        "name": "UmRdpService",
+        "display_name": "Remote Desktop Services UserMode Port Redirector",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "localSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": null,
+        "description": "Allows the redirection of Printers/Drives/Ports for RDP connections"
+    },
+    "upnphost": {
+        "name": "upnphost",
+        "display_name": "UPnP Device Host",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceAndNoImpersonationRedirectionGuard -p",
+        "pid": null,
+        "description": "Allows UPnP devices to be hosted on this computer. If this service is stopped, any hosted UPnP devices will stop functioning and no additional hosted devices can be added. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "UserManager": {
+        "name": "UserManager",
+        "display_name": "User Manager",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": 3088,
+        "description": "User Manager provides the runtime components required for multi-user interaction.  If this service is stopped, some applications may not operate correctly."
+    },
+    "UsoSvc": {
+        "name": "UsoSvc",
+        "display_name": "Update Orchestrator Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": 21768,
+        "description": "Manages Windows Updates. If stopped, your devices will not be able to download and install the latest updates."
+    },
+    "VaultSvc": {
+        "name": "VaultSvc",
+        "display_name": "Credential Manager",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\lsass.exe",
+        "pid": 1432,
+        "description": "Provides secure storage and retrieval of credentials to users, applications and security service packages."
+    },
+    "VBoxSDS": {
+        "name": "VBoxSDS",
+        "display_name": "VirtualBox system service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files\\Oracle\\VirtualBox\\VBoxSDS.exe\"",
+        "pid": null,
+        "description": "Used as a COM server for VirtualBox API."
+    },
+    "vds": {
+        "name": "vds",
+        "display_name": "Virtual Disk",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\vds.exe",
+        "pid": null,
+        "description": "Provides management services for disks, volumes, file systems, and storage arrays."
+    },
+    "VMAuthdService": {
+        "name": "VMAuthdService",
+        "display_name": "VMware Authorization Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files (x86)\\VMware\\VMware Workstation\\vmware-authd.exe\"",
+        "pid": 6612,
+        "description": "Authorization and authentication service for starting and accessing virtual machines."
+    },
+    "vmcompute": {
+        "name": "vmcompute",
+        "display_name": "Hyper-V Host Compute Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\vmcompute.exe",
+        "pid": null,
+        "description": "Provides support for running Windows Containers and Virtual Machines."
+    },
+    "vmicguestinterface": {
+        "name": "vmicguestinterface",
+        "display_name": "Hyper-V Guest Service Interface",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestrictedRedirectionGuard -p",
+        "pid": null,
+        "description": "Provides an interface for the Hyper-V host to interact with specific services running inside the virtual machine."
+    },
+    "vmicheartbeat": {
+        "name": "vmicheartbeat",
+        "display_name": "Hyper-V Heartbeat Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k ICService -p",
+        "pid": null,
+        "description": "Monitors the state of this virtual machine by reporting a heartbeat at regular intervals. This service helps you identify running virtual machines that have stopped responding."
+    },
+    "vmickvpexchange": {
+        "name": "vmickvpexchange",
+        "display_name": "Hyper-V Data Exchange Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestrictedRedirectionGuard -p",
+        "pid": null,
+        "description": "Provides a mechanism to exchange data between the virtual machine and the operating system running on the physical computer."
+    },
+    "vmicrdv": {
+        "name": "vmicrdv",
+        "display_name": "Hyper-V Remote Desktop Virtualization Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k ICService -p",
+        "pid": null,
+        "description": "Provides a platform for communication between the virtual machine and the operating system running on the physical computer."
+    },
+    "vmicshutdown": {
+        "name": "vmicshutdown",
+        "display_name": "Hyper-V Guest Shutdown Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestrictedRedirectionGuard -p",
+        "pid": null,
+        "description": "Provides a mechanism to shut down the operating system of this virtual machine from the management interfaces on the physical computer."
+    },
+    "vmictimesync": {
+        "name": "vmictimesync",
+        "display_name": "Hyper-V Time Synchronization Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+        "pid": null,
+        "description": "Synchronizes the system time of this virtual machine with the system time of the physical computer."
+    },
+    "vmicvmsession": {
+        "name": "vmicvmsession",
+        "display_name": "Hyper-V PowerShell Direct Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestrictedRedirectionGuard -p",
+        "pid": null,
+        "description": "Provides a mechanism to manage virtual machine with PowerShell via VM session without a virtual network."
+    },
+    "vmicvss": {
+        "name": "vmicvss",
+        "display_name": "Hyper-V Volume Shadow Copy Requestor",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestrictedRedirectionGuard -p",
+        "pid": null,
+        "description": "Coordinates the communications that are required to use Volume Shadow Copy Service to back up applications and data on this virtual machine from the operating system on the physical computer."
+    },
+    "VMnetDHCP": {
+        "name": "VMnetDHCP",
+        "display_name": "VMware DHCP Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\windows\\SysWOW64\\vmnetdhcp.exe",
+        "pid": 6628,
+        "description": "DHCP service for virtual networks.\r\n"
+    },
+    "VMUSBArbService": {
+        "name": "VMUSBArbService",
+        "display_name": "VMware USB Arbitration Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files (x86)\\Common Files\\VMware\\USB\\vmware-usbarbitrator64.exe\"",
+        "pid": 6640,
+        "description": "Arbitration and enumeration of USB devices for virtual machines"
+    },
+    "VMware NAT Service": {
+        "name": "VMware NAT Service",
+        "display_name": "VMware NAT Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\windows\\SysWOW64\\vmnat.exe",
+        "pid": 6828,
+        "description": "Network address translation for virtual networks.\r\n"
+    },
+    "VmwareAutostartService": {
+        "name": "VmwareAutostartService",
+        "display_name": "VMware Autostart Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files (x86)\\VMware\\VMware Workstation\\vmware-autostart.exe\"",
+        "pid": null,
+        "description": "The service for automatically powering on the VMs specified in the configuration file when the service starts. "
+    },
+    "VSS": {
+        "name": "VSS",
+        "display_name": "Volume Shadow Copy",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\vssvc.exe",
+        "pid": null,
+        "description": "Manages and implements Volume Shadow Copies used for backup and other purposes. If this service is stopped, shadow copies will be unavailable for backup and the backup may fail. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "W32Time": {
+        "name": "W32Time",
+        "display_name": "Windows Time",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService",
+        "pid": null,
+        "description": "Maintains date and time synchronization on all clients and servers in the network. If this service is stopped, date and time synchronization will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "WaaSMedicSvc": {
+        "name": "WaaSMedicSvc",
+        "display_name": "WaaSMedicSvc",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k wusvcs -p",
+        "pid": null,
+        "description": null
+    },
+    "WalletService": {
+        "name": "WalletService",
+        "display_name": "WalletService",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k appmodel -p",
+        "pid": null,
+        "description": "Hosts objects used by clients of the wallet"
+    },
+    "WarpJITSvc": {
+        "name": "WarpJITSvc",
+        "display_name": "Warp JIT Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT Authority\\LocalService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalServiceNetworkRestricted",
+        "pid": null,
+        "description": "Enables JIT compilation support in d3d10warp.dll for processes in which code generation is disabled."
+    },
+    "wbengine": {
+        "name": "wbengine",
+        "display_name": "Block Level Backup Engine Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "localSystem",
+        "binary_path": "\"C:\\WINDOWS\\system32\\wbengine.exe\"",
+        "pid": null,
+        "description": "The WBENGINE service is used by Windows Backup to perform backup and recovery operations. If this service is stopped by a user, it may cause the currently running backup or recovery operation to fail. Disabling this service may disable backup and recovery operations using Windows Backup on this computer."
+    },
+    "WbioSrvc": {
+        "name": "WbioSrvc",
+        "display_name": "Windows Biometric Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k WbioSvcGroup",
+        "pid": 9844,
+        "description": "The Windows biometric service gives client applications the ability to capture, compare, manipulate, and store biometric data without gaining direct access to any biometric hardware or samples. The service is hosted in a privileged SVCHOST process."
+    },
+    "Wcmsvc": {
+        "name": "Wcmsvc",
+        "display_name": "Windows Connection Manager",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT Authority\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p -s Wcmsvc",
+        "pid": 3164,
+        "description": "Makes automatic connect and disconnect decisions based on the network connectivity options currently available to the PC and enables management of network connectivity based on Group Policy settings."
+    },
+    "wcncsvc": {
+        "name": "wcncsvc",
+        "display_name": "Windows Connect Now - Config Registrar",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalServiceAndNoImpersonation -p",
+        "pid": null,
+        "description": "WCNCSVC hosts the Windows Connect Now Configuration which is Microsoft's Implementation of Wireless Protected Setup (WPS) protocol. This is used to configure Wireless LAN settings for an Access Point (AP) or a Wireless Device. The service is started programmatically as needed."
+    },
+    "WdiServiceHost": {
+        "name": "WdiServiceHost",
+        "display_name": "Diagnostic Service Host",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalService -p",
+        "pid": null,
+        "description": "The Diagnostic Service Host is used by the Diagnostic Policy Service to host diagnostics that need to run in a Local Service context.  If this service is stopped, any diagnostics that depend on it will no longer function."
+    },
+    "WdiSystemHost": {
+        "name": "WdiSystemHost",
+        "display_name": "Diagnostic System Host",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": 4964,
+        "description": "The Diagnostic System Host is used by the Diagnostic Policy Service to host diagnostics that need to run in a Local System context.  If this service is stopped, any diagnostics that depend on it will no longer function."
+    },
+    "WdNisSvc": {
+        "name": "WdNisSvc",
+        "display_name": "Microsoft Defender Antivirus Network Inspection Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "\"C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0\\NisSrv.exe\"",
+        "pid": 6280,
+        "description": "Helps guard against intrusion attempts targeting known and newly discovered vulnerabilities in network protocols"
+    },
+    "WebClient": {
+        "name": "WebClient",
+        "display_name": "WebClient",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService -p",
+        "pid": null,
+        "description": "Enables Windows-based programs to create, access, and modify Internet-based files. If this service is stopped, these functions will not be available. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "webthreatdefsvc": {
+        "name": "webthreatdefsvc",
+        "display_name": "Web Threat Defense Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k WebThreatDefense -p",
+        "pid": 17528,
+        "description": "Web Threat Defense Endpoint Service helps protect your computer by identifying unauthorized entities attempting to gain access to user credentials"
+    },
+    "Wecsvc": {
+        "name": "Wecsvc",
+        "display_name": "Windows Event Collector",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k NetworkService -p",
+        "pid": null,
+        "description": "This service manages persistent subscriptions to events from remote sources that support WS-Management protocol. This includes Windows Vista event logs, hardware and IPMI-enabled event sources. The service stores forwarded events in a local Event Log. If this service is stopped or disabled event subscriptions cannot be created and forwarded events cannot be accepted."
+    },
+    "WEPHOSTSVC": {
+        "name": "WEPHOSTSVC",
+        "display_name": "Windows Encryption Provider Host Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k WepHostSvcGroup",
+        "pid": null,
+        "description": "Windows Encryption Provider Host Service brokers encryption related functionalities from 3rd Party Encryption Providers to processes that need to evaluate and apply EAS policies. Stopping this will compromise EAS compliancy checks that have been established by the connected Mail Accounts"
+    },
+    "wercplsupport": {
+        "name": "wercplsupport",
+        "display_name": "Problem Reports Control Panel Support",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "localSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "This service provides support for viewing, sending and deletion of system-level problem reports for the Problem Reports control panel."
+    },
+    "WerSvc": {
+        "name": "WerSvc",
+        "display_name": "Windows Error Reporting Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "localSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k WerSvcGroup",
+        "pid": null,
+        "description": "Allows errors to be reported when programs stop working or responding and allows existing solutions to be delivered. Also allows logs to be generated for diagnostic and repair services. If this service is stopped, error reporting might not work correctly and results of diagnostic services and repairs might not be displayed."
+    },
+    "WFDSConMgrSvc": {
+        "name": "WFDSConMgrSvc",
+        "display_name": "Wi-Fi Direct Services Connection Manager Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+        "pid": 10944,
+        "description": "Manages connections to wireless services, including wireless display and docking."
+    },
+    "whesvc": {
+        "name": "whesvc",
+        "display_name": "Windows Health and Optimized Experiences",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k whesvc -p",
+        "pid": 11200,
+        "description": "Monitors the device for a better user experience"
+    },
+    "WiaRpc": {
+        "name": "WiaRpc",
+        "display_name": "Still Image Acquisition Events",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": null,
+        "description": "Launches applications associated with still image acquisition events."
+    },
+    "WinDefend": {
+        "name": "WinDefend",
+        "display_name": "Microsoft Defender Antivirus Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0\\MsMpEng.exe\"",
+        "pid": 6836,
+        "description": "Helps protect users from malware and other potentially unwanted software"
+    },
+    "WinHttpAutoProxySvc": {
+        "name": "WinHttpAutoProxySvc",
+        "display_name": "WinHTTP Web Proxy Auto-Discovery Service",
+        "status": "running",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceHttp -p",
+        "pid": 2884,
+        "description": "WinHTTP implements the client HTTP stack and provides developers with a Win32 API and COM Automation component for sending HTTP requests and receiving responses. In addition, WinHTTP provides support for auto-discovering a proxy configuration via its implementation of the Web Proxy Auto-Discovery (WPAD) protocol."
+    },
+    "Winmgmt": {
+        "name": "Winmgmt",
+        "display_name": "Windows Management Instrumentation",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "localSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": 4836,
+        "description": "Provides a common interface and object model to access management information about operating system, devices, applications and services. If this service is stopped, most Windows-based software will not function properly. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    "WinRM": {
+        "name": "WinRM",
+        "display_name": "Windows Remote Management (WS-Management)",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\NetworkService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k NetworkService -p",
+        "pid": null,
+        "description": "Windows Remote Management (WinRM) service implements the WS-Management protocol for remote management. WS-Management is a standard web services protocol used for remote software and hardware management. The WinRM service listens on the network for WS-Management requests and processes them. The WinRM Service needs to be configured with a listener using winrm.cmd command line tool or through Group Policy in order for it to listen over the network. The WinRM service provides access to WMI data and enables event collection. Event collection and subscription to events require that the service is running. WinRM messages use HTTP and HTTPS as transports. The WinRM service does not depend on IIS but is preconfigured to share a port with IIS on the same machine.  The WinRM service reserves the /wsman URL prefix. To prevent conflicts with IIS, administrators should ensure that any websites hosted on IIS do not use the /wsman URL prefix."
+    },
+    "wisvc": {
+        "name": "wisvc",
+        "display_name": "Windows Insider Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "Provides infrastructure support for the Windows Insider Program. This service must remain enabled for the Windows Insider Program to work."
+    },
+    "WlanSvc": {
+        "name": "WlanSvc",
+        "display_name": "WLAN AutoConfig",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p -s Wlansvc",
+        "pid": 5244,
+        "description": "The WLANSVC service provides the logic required to configure, discover, connect to, and disconnect from a wireless local area network (WLAN) as defined by IEEE 802.11 standards. It also contains the logic to turn your computer into a software access point so that other devices or computers can connect to your computer wirelessly using a WLAN adapter that can support this. Stopping or disabling the WLANSVC service will make all WLAN adapters on your computer inaccessible from the Windows networking UI. It is strongly recommended that you have the WLANSVC service running if your computer has a WLAN adapter."
+    },
+    "wlidsvc": {
+        "name": "wlidsvc",
+        "display_name": "Microsoft Account Sign-in Assistant",
+        "status": "running",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": 15824,
+        "description": "Enables user sign-in through Microsoft account identity services. If this service is stopped, users will not be able to logon to the computer with their Microsoft account."
+    },
+    "wlpasvc": {
+        "name": "wlpasvc",
+        "display_name": "Local Profile Assistant Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT Authority\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+        "pid": null,
+        "description": "This service provides profile management for subscriber identity modules"
+    },
+    "WManSvc": {
+        "name": "WManSvc",
+        "display_name": "Windows Management Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "Performs management including Provisioning and Enrollment activities"
+    },
+    "wmiApSrv": {
+        "name": "wmiApSrv",
+        "display_name": "WMI Performance Adapter",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "localSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\wbem\\WmiApSrv.exe",
+        "pid": null,
+        "description": "Provides performance library information from Windows Management Instrumentation (WMI) providers to clients on the network. This service only runs when Performance Data Helper is activated."
+    },
+    "WMIRegistrationService": {
+        "name": "WMIRegistrationService",
+        "display_name": "Intel(R) Management Engine WMI Provider Registration",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\mewmiprov.inf_amd64_d51901c26227fb29\\WMIRegistrationService.exe",
+        "pid": 6764,
+        "description": "Intel(R) Management Engine WMI Provider Registration Service"
+    },
+    "WMPNetworkSvc": {
+        "name": "WMPNetworkSvc",
+        "display_name": "Windows Media Player Network Sharing Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\NetworkService",
+        "binary_path": "\"C:\\Program Files\\Windows Media Player\\wmpnetwk.exe\"",
+        "pid": null,
+        "description": "Shares Windows Media Player libraries to other networked players and media devices using Universal Plug and Play"
+    },
+    "workfolderssvc": {
+        "name": "workfolderssvc",
+        "display_name": "Work Folders",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalService -p",
+        "pid": null,
+        "description": "This service syncs files with the Work Folders server, enabling you to use the files on any of the PCs and devices on which you've set up Work Folders."
+    },
+    "WpcMonSvc": {
+        "name": "WpcMonSvc",
+        "display_name": "Parental Controls",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService",
+        "pid": null,
+        "description": "Enforces parental controls for child accounts in Windows. If this service is stopped or disabled, parental controls may not be enforced."
+    },
+    "WPDBusEnum": {
+        "name": "WPDBusEnum",
+        "display_name": "Portable Device Enumerator Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted",
+        "pid": null,
+        "description": "Enforces group policy for removable mass-storage devices. Enables applications such as Windows Media Player and Image Import Wizard to transfer and synchronize content using removable mass-storage devices."
+    },
+    "WpnService": {
+        "name": "WpnService",
+        "display_name": "Windows Push Notifications System Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": 6904,
+        "description": "This service runs in session 0 and hosts the notification platform and connection provider which handles the connection between the device and WNS server."
+    },
+    "WSAIFabricSvc": {
+        "name": "WSAIFabricSvc",
+        "display_name": "Windows AI Components Host",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k WSAIFabricSvcGroup -p",
+        "pid": 10188,
+        "description": "Provides AI component services to apps and other Windows services."
+    },
+    "wscsvc": {
+        "name": "wscsvc",
+        "display_name": "Security Center",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+        "pid": 21992,
+        "description": "The WSCSVC (Windows Security Center) service monitors and reports security health settings on the computer.  The health settings include firewall (on/off), antivirus (on/off/out of date), antispyware (on/off/out of date), Windows Update (automatically/manually download and install updates), User Account Control (on/off), and Internet settings (recommended/not recommended). The service provides COM APIs for independent software vendors to register and record the state of their products to the Security Center service.  The Security and Maintenance UI uses the service to provide systray alerts and a graphical view of the security health states in the Security and Maintenance control panel.  Network Access Protection (NAP) uses the service to report the security health states of clients to the NAP Network Policy Server to make network quarantine decisions.  The service also has a public API that allows external consumers to programmatically retrieve the aggregated security health state of the system."
+    },
+    "WSearch": {
+        "name": "WSearch",
+        "display_name": "Windows Search",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\SearchIndexer.exe /Embedding",
+        "pid": 15736,
+        "description": "Provides content indexing, property caching, and search results for files, e-mail, and other content."
+    },
+    "WSLService": {
+        "name": "WSLService",
+        "display_name": "WSL Service",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "LocalSystem",
+        "binary_path": "\"C:\\Program Files\\WSL\\wslservice.exe\"",
+        "pid": 6876,
+        "description": "WSL Service"
+    },
+    "wuauserv": {
+        "name": "wuauserv",
+        "display_name": "Windows Update",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "Enables the detection, download, and installation of updates for Windows and other programs. If this service is disabled, users of this computer will not be able to use Windows Update or its automatic updating feature, and programs will not be able to use the Windows Update Agent (WUA) API."
+    },
+    "wuqisvc": {
+        "name": "wuqisvc",
+        "display_name": "Microsoft Usage and Quality Insights",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "NT AUTHORITY\\LocalService",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k WuqiSvcGroup -p",
+        "pid": null,
+        "description": "A Microsoft service producing summary facts and insights related to usage and quality of experience. Facts are used to automate on-device self-healing and other optional workflows, such as Personalized offers."
+    },
+    "WwanSvc": {
+        "name": "WwanSvc",
+        "display_name": "WWAN AutoConfig",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "localSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestrictedRedirectionGuard -p",
+        "pid": null,
+        "description": "This service manages mobile broadband (GSM & CDMA) data card/embedded module adapters and connections by auto-configuring the networks. It is strongly recommended that this service be kept running for best user experience of mobile broadband devices."
+    },
+    "XblAuthManager": {
+        "name": "XblAuthManager",
+        "display_name": "Xbox Live Auth Manager",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcsRedirectionGuard -p",
+        "pid": null,
+        "description": "Provides authentication and authorization services for interacting with Xbox Live. If this service is stopped, some applications may not operate correctly."
+    },
+    "XblGameSave": {
+        "name": "XblGameSave",
+        "display_name": "Xbox Live Game Save",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "This service syncs save data for Xbox Live save enabled games.  If this service is stopped, game save data will not upload to or download from Xbox Live."
+    },
+    "XboxGipSvc": {
+        "name": "XboxGipSvc",
+        "display_name": "Xbox Accessory Management Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "This service manages connected Xbox Accessories."
+    },
+    "XboxNetApiSvc": {
+        "name": "XboxNetApiSvc",
+        "display_name": "Xbox Live Networking Service",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "LocalSystem",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+        "pid": null,
+        "description": "This service supports the Windows.Networking.XboxLive application programming interface."
+    },
+    "AarSvc_a3e49": {
+        "name": "AarSvc_a3e49",
+        "display_name": "AarSvc_a3e49",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k AarSvcGroup -p",
+        "pid": null,
+        "description": "Runtime for activating conversational agent applications"
+    },
+    "BcastDVRUserService_a3e49": {
+        "name": "BcastDVRUserService_a3e49",
+        "display_name": "BcastDVRUserService_a3e49",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k BcastDVRUserService",
+        "pid": null,
+        "description": "This user service is used for Game Recordings and Live Broadcasts"
+    },
+    "BluetoothUserService_a3e49": {
+        "name": "BluetoothUserService_a3e49",
+        "display_name": "BluetoothUserService_a3e49",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k BthAppGroup -p",
+        "pid": null,
+        "description": "The Bluetooth user service supports proper functionality of Bluetooth features relevant to each user session."
+    },
+    "CaptureService_a3e49": {
+        "name": "CaptureService_a3e49",
+        "display_name": "CaptureService_a3e49",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService -p",
+        "pid": null,
+        "description": "Enables optional screen capture functionality for applications that call the Windows.Graphics.Capture API."
+    },
+    "cbdhsvc_a3e49": {
+        "name": "cbdhsvc_a3e49",
+        "display_name": "cbdhsvc_a3e49",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k ClipboardSvcGroup -p",
+        "pid": 12160,
+        "description": "This user service is used for Clipboard scenarios"
+    },
+    "CDPUserSvc_a3e49": {
+        "name": "CDPUserSvc_a3e49",
+        "display_name": "CDPUserSvc_a3e49",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k UnistackSvcGroup",
+        "pid": 10332,
+        "description": "This user service is used for Connected Devices Platform scenarios"
+    },
+    "CloudBackupRestoreSvc_a3e49": {
+        "name": "CloudBackupRestoreSvc_a3e49",
+        "display_name": "CloudBackupRestoreSvc_a3e49",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k UnistackSvcGroup",
+        "pid": null,
+        "description": "Monitors the system for changes in application and setting states and performs cloud backup and restore operations when required."
+    },
+    "ConsentUxUserSvc_a3e49": {
+        "name": "ConsentUxUserSvc_a3e49",
+        "display_name": "ConsentUxUserSvc_a3e49",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k DevicesFlow",
+        "pid": null,
+        "description": "Allows the system to request user consent to allow apps to access sensitive resources and information such as the device's location"
+    },
+    "CredentialEnrollmentManagerUserSvc_a3e49": {
+        "name": "CredentialEnrollmentManagerUserSvc_a3e49",
+        "display_name": "CredentialEnrollmentManagerUserSvc_a3e49",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\CredentialEnrollmentManager.exe",
+        "pid": null,
+        "description": "Credential Enrollment Manager"
+    },
+    "DeviceAssociationBrokerSvc_a3e49": {
+        "name": "DeviceAssociationBrokerSvc_a3e49",
+        "display_name": "DeviceAssociationBrokerSvc_a3e49",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k DevicesFlow -p",
+        "pid": null,
+        "description": "Enables apps to pair devices"
+    },
+    "DevicePickerUserSvc_a3e49": {
+        "name": "DevicePickerUserSvc_a3e49",
+        "display_name": "DevicePickerUserSvc_a3e49",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k DevicesFlow",
+        "pid": null,
+        "description": "This user service is used for managing the Miracast, DLNA, and DIAL UI"
+    },
+    "DevicesFlowUserSvc_a3e49": {
+        "name": "DevicesFlowUserSvc_a3e49",
+        "display_name": "DevicesFlowUserSvc_a3e49",
+        "status": "running",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k DevicesFlow",
+        "pid": 4104,
+        "description": "Allows ConnectUX and PC Settings to Connect and Pair with WiFi displays and Bluetooth devices."
+    },
+    "MessagingService_a3e49": {
+        "name": "MessagingService_a3e49",
+        "display_name": "MessagingService_a3e49",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k UnistackSvcGroup",
+        "pid": null,
+        "description": "Service supporting text messaging and related functionality."
+    },
+    "NPSMSvc_a3e49": {
+        "name": "NPSMSvc_a3e49",
+        "display_name": "NPSMSvc_a3e49",
+        "status": "running",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService -p",
+        "pid": 3840,
+        "description": "This service hosts the Now Playing Session Manager used for Media Scenarios"
+    },
+    "OneSyncSvc_a3e49": {
+        "name": "OneSyncSvc_a3e49",
+        "display_name": "OneSyncSvc_a3e49",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k UnistackSvcGroup",
+        "pid": null,
+        "description": "This service synchronizes mail, contacts, calendar and various other user data. Mail and other applications dependent on this functionality will not work properly when this service is not running."
+    },
+    "P9RdrService_a3e49": {
+        "name": "P9RdrService_a3e49",
+        "display_name": "P9RdrService_a3e49",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k P9RdrService -p",
+        "pid": null,
+        "description": "Enables trigger-starting plan9 file servers."
+    },
+    "PenService_a3e49": {
+        "name": "PenService_a3e49",
+        "display_name": "PenService_a3e49",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k PenService",
+        "pid": null,
+        "description": "Pen Service"
+    },
+    "PimIndexMaintenanceSvc_a3e49": {
+        "name": "PimIndexMaintenanceSvc_a3e49",
+        "display_name": "PimIndexMaintenanceSvc_a3e49",
+        "status": "running",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k UnistackSvcGroup",
+        "pid": 16352,
+        "description": "Indexes contact data for fast contact searching. If you stop or disable this service, contacts might be missing from your search results."
+    },
+    "PrintWorkflowUserSvc_a3e49": {
+        "name": "PrintWorkflowUserSvc_a3e49",
+        "display_name": "PrintWorkflowUserSvc_a3e49",
+        "status": "stopped",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k PrintWorkflow",
+        "pid": null,
+        "description": "Provides support for Print Workflow applications. If you turn off this service, you may not be able to print successfully."
+    },
+    "UdkUserSvc_a3e49": {
+        "name": "UdkUserSvc_a3e49",
+        "display_name": "UdkUserSvc_a3e49",
+        "status": "running",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k UdkSvcGroup",
+        "pid": 8124,
+        "description": "Shell components service"
+    },
+    "UnistoreSvc_a3e49": {
+        "name": "UnistoreSvc_a3e49",
+        "display_name": "UnistoreSvc_a3e49",
+        "status": "running",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\System32\\svchost.exe -k UnistackSvcGroup",
+        "pid": 16352,
+        "description": "Handles storage of structured user data, including contact info, calendars, messages, and other content. If you stop or disable this service, apps that use this data might not work correctly."
+    },
+    "UserDataSvc_a3e49": {
+        "name": "UserDataSvc_a3e49",
+        "display_name": "UserDataSvc_a3e49",
+        "status": "running",
+        "start_type": "manual",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k UnistackSvcGroup",
+        "pid": 16352,
+        "description": "Provides apps access to structured user data, including contact info, calendars, messages, and other content. If you stop or disable this service, apps that use this data might not work correctly."
+    },
+    "webthreatdefusersvc_a3e49": {
+        "name": "webthreatdefusersvc_a3e49",
+        "display_name": "webthreatdefusersvc_a3e49",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+        "pid": 10556,
+        "description": "Web Threat Defense User Service helps protect your computer by warning the user when unauthorized entities attempt to gain access to their credentials"
+    },
+    "WpnUserService_a3e49": {
+        "name": "WpnUserService_a3e49",
+        "display_name": "WpnUserService_a3e49",
+        "status": "running",
+        "start_type": "automatic",
+        "username": "",
+        "binary_path": "C:\\WINDOWS\\system32\\svchost.exe -k UnistackSvcGroup",
+        "pid": 10752,
+        "description": "This service hosts Windows notification platform which provides support for local and push notifications. Supported notifications are tile, toast and raw."
+    }
+}
